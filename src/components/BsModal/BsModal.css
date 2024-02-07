@@ -1,0 +1,44 @@
+/* Bootstrap Modal for Lightbox */
+.modal {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.modal-dialog {
+  background-color: transparent !important;
+}
+.modal-content {
+  background-color: transparent !important;
+}
+.modal-body {
+  text-align: center !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+.modal-footer {
+  justify-content: center !important;
+  background-color: transparent !important;
+  border: 0 !important;
+}
+.modal .modal-dialog .modal-content button[data-bs-dismiss],
+.modal .modal-dialog .modal-content #prevButton,
+.modal .modal-dialog .modal-content #nextButton
+{
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+
+}
+.modal .modal-dialog .modal-content button[data-bs-dismiss]{
+  text-align: right;
+  margin-bottom: 5px;
+}
+.modal .modal-dialog .modal-content button[data-bs-dismiss] i,
+.modal .modal-dialog .modal-content #prevButton i,
+.modal .modal-dialog .modal-content #nextButton i{
+  color: #abb8b3;
+  transition: all 0.5s;
+}
+.modal .modal-dialog .modal-content button[data-bs-dismiss]:hover i,
+.modal .modal-dialog .modal-content #prevButton:hover i,
+.modal .modal-dialog .modal-content #nextButton:hover i{
+  color: #fff;
+}
